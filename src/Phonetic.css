@@ -1,0 +1,12 @@
+.Phonetic button{
+    background-color: #f3683c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 14px;
+    cursor: pointer;
+  }
+  
+  .Phonetic button:hover {
+    background-color: #d94128;
+  }
