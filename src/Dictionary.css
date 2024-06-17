@@ -7,7 +7,7 @@ input {
     width: 100%;
     line-height: 3rem;
     border-radius: 12px;
-    border: 2px solid #F3683C;
+    border: 2px dashed #F3683C;
     
 
 }
