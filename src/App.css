@@ -1,6 +1,64 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #DADCE0;
+}
+
+.App-header {
+  font-family: "Zen Dots", sans-serif;
+  color: #F3683C;
+  font-size: 2rem;
+  text-align: left;
+  width: 100%;
+  padding: 20px;
+}
+
+.main-content {
+  display: flex;
+  width: 100%;
+}
+
+.vertical-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #DADCE0;
+  padding: 10px;
+}
+
+.vertical-line-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 50vh; 
+}
+
+.vertical-line {
+  width: 2px;
+  flex-grow: 1;
+  background-color: #F3683C;
+}
+
+.menu-item {
+  transform: rotate(-90deg);
+  transform-origin: left top;
+  margin-top: 10px; 
+}
+
+.menu-item a {
+  color: #F3683C;
+  text-decoration: none;
+  font-family: "Zen Dots", sans-serif;
+  font-size: 1.2rem;
 }
 
 
+.headline {
+  text-align: left;
+  font-size: 2.5rem;
+  margin: 2rem 0;
+}
 
