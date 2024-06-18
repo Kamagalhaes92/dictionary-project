@@ -1,8 +1,12 @@
 .Typewriter {
     display: inline-block;
-    margin: 1.5rem 0;
     color: #F3683C; 
-    font-size: 2.3rem; 
+    font-size: 4.5rem; 
     font-weight: bold; 
     text-transform: capitalize;
+  }
+
+  .Results {
+    padding: 0 5rem;
+    
   }

@@ -2,12 +2,51 @@
     font-family: "Manrope", sans-serif;
 }
 
+.Dictionary form {
+    display: flex;
+    justify-content: center;
+   
+    
+}
 
-input {
+.Dictionary input {
     width: 100%;
     line-height: 3rem;
     border-radius: 12px;
     border: 2px dashed #F3683C;
-    
+    z-index: 999;
+}
 
+.Results {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.WordSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(179, 57, 57);
+    border-radius: 12px;
+    padding: 1.1rem;
+    margin: 20px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.Typewriter {
+    font-size: 3em;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid black;
+}
+
+section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    z-index: 999;
 }

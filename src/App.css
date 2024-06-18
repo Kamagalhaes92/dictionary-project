@@ -1,8 +1,11 @@
+body {
+  background-color: #e7e9ec;
+}
+
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #e7e9ec;
 }
 
 .App-header {
@@ -17,6 +20,7 @@
 .main-content {
   display: flex;
   width: 100%;
+  position: relative; /* Ensure relative positioning for absolute children */
 }
 
 .vertical-menu {
@@ -24,7 +28,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background-color: #DADCE0;
   padding: 10px;
 }
 
@@ -33,7 +36,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 50vh; 
+  height: 80vh;
 }
 
 .vertical-line {
@@ -45,7 +48,7 @@
 .menu-item {
   transform: rotate(-90deg);
   transform-origin: left top;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 .menu-item a {
@@ -55,10 +58,32 @@
   font-size: 1.2rem;
 }
 
+.container {
+  flex-grow: 1;
+  position: relative; /* Ensure relative positioning for absolute children */
+}
+
+.headline-container {
+  position: relative; /* Ensure relative positioning for absolute children */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .headline {
   text-align: left;
   font-size: 2.5rem;
   margin: 2rem 0;
+  z-index: 1; /* Ensure it is above the Blob */
 }
 
+.BlobContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0; /* Ensure it is below other content */
+}

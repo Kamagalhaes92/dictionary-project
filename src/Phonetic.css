@@ -1,12 +1,30 @@
-.Phonetic button{
-    background-color: #f3683c;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 14px;
-    cursor: pointer;
-  }
-  
-  .Phonetic button:hover {
-    background-color: #d94128;
-  }
+.Phonetic {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1em;
+}
+
+.Phonetic button {
+  background-color: #f3683c;
+  color: rgb(241, 239, 239);
+  border: none;
+  margin: 0.5rem 0;
+  padding: 5px 10px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.Phonetic button:hover {
+  background-color: #d94128;
+}
+
+.Phonetic button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1rem;
+}

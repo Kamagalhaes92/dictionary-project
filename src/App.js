@@ -1,7 +1,6 @@
-
 import './App.css';
 import Dictionary from './Dictionary';
-
+import Blob from "./Blob"; // Import the Blob component
 
 export default function App() {
   return (
@@ -19,7 +18,10 @@ export default function App() {
           </div>
         </div>
         <div className='container'>
-          <h2 className='headline'>Revolutionize <br/> Your Vocabulary  <br/>with WordWave</h2>
+          <div className="headline-container">
+            <h2 className='headline'>Revolutionize <br/> Your Vocabulary  <br/>with WordWave</h2>
+            <Blob /> {/* Add the Blob component */}
+          </div>
           <main>
             <Dictionary />
           </main>

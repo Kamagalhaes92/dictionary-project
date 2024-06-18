@@ -1,0 +1,14 @@
+.Meaning {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.Meaning p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.Meaning strong {
+    font-weight: bold;
+}
