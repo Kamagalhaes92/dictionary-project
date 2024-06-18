@@ -32,6 +32,7 @@
     padding: 1.1rem;
     margin: 20px 0;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    flex-wrap: wrap;
 }
 
 .Typewriter {
@@ -49,4 +50,18 @@ section {
     border-radius: 8px;
     background-color: #f9f9f9;
     z-index: 999;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .Results {
+        padding: 0;
+    }
+    
+    .Typewriter {
+        font-size: 24px;
+    }
+    
 }

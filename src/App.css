@@ -87,3 +87,13 @@ body {
   pointer-events: none;
   z-index: 0; /* Ensure it is below other content */
 }
+
+@media (max-width: 768px) {
+
+  .vertical-menu {
+    
+    padding: 0px;
+  }
+  
+
+}

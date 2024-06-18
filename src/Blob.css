@@ -30,3 +30,14 @@
     }
   }
   
+
+  
+@media (max-width: 768px) {
+
+  .BlobContainer {
+   
+    width: 400px;
+    height: 400px;
+}
+
+}
