@@ -12,3 +12,15 @@
 .Meaning strong {
     font-weight: bold;
 }
+
+.examples {
+    color: brown;
+    font-style: italic;
+}
+
+li {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    
+    
+}

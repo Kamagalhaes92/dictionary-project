@@ -20,10 +20,10 @@ export default function App() {
         <div className='container'>
           <div className="headline-container">
             <h2 className='headline'>Revolutionize <br/> Your Vocabulary  <br/>with WordWave</h2>
-            <Blob /> {/* Add the Blob component */}
+            <Blob /> 
           </div>
           <main>
-            <Dictionary />
+            <Dictionary defaultKeyword="hello"/>
           </main>
           <footer className='text-center'>
             Coded by Karine Magalhaes.

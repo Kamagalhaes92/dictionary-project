@@ -15,11 +15,11 @@ export default function Meaning (props) {
                   <strong>Definition:</strong> {definition.definition}
                   <br />
                   {definition.example && ( 
-                    <>
+                    <div className="examples">
                       <strong>Example:</strong> <em>{definition.example}</em>
                       <br />
                       <Synonyms synonyms={definition.synonyms} />
-                    </>
+                    </div>
                   )}
                 </p>
               </div>

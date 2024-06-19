@@ -1,6 +1,11 @@
+ h3 {
+    text-transform: uppercase;
+    color: rgb(86, 66, 66);
+  }
+
 .Typewriter {
     display: inline-block;
-    color: #F3683C; 
+    color: #f4e2dc; 
     font-size: 3.5rem; 
     font-weight: bold; 
     text-transform: capitalize;
@@ -10,6 +15,8 @@
     padding: 0 5rem;
     
   }
+
+ 
 
   @media (max-width: 768px) {
 

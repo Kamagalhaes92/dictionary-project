@@ -31,7 +31,7 @@ export default function Phonetic(props) {
             {audioError ? null : (
                 <>
                     <button onClick={playAudio}>
-                        <FontAwesomeIcon icon={faVolumeUp} /> Listen
+                        <FontAwesomeIcon icon={faVolumeUp} /> 
                     </button>
                     {props.phonetic.text}
                 </>
