@@ -1,26 +1,35 @@
 .Meaning {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
+    grid-template-columns: 1fr 3fr;
+    gap: 15px;
 }
 
-.Meaning p {
-    margin: 0;
-    line-height: 1.5;
-}
-
-.Meaning strong {
-    font-weight: bold;
+.meaning-card {
+    border: 2px solid #522d22;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 20px;
+    
 }
 
 .examples {
-    color: brown;
+    color: rgb(117, 55, 55);
     font-style: italic;
+    opacity: 0.7;
+    font-size: 16px;
+    padding-top: 10px;
 }
 
-li {
-    background-color: rgb(41, 41, 41);
-    color: white;
-    
-    
-}
+
+@media (max-width: 768px) {
+
+    .Meaning {
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+
+    .meaning-card {
+        border: 2px solid #522d22;
+    }
+  
+  }

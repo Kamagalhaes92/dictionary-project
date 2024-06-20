@@ -1,0 +1,47 @@
+.WordOfTheDay {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.WordOfTheDay:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.WordOfTheDay h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.WordOfTheDay p {
+    font-size: 1.2rem;
+    color: #272626;
+    margin-bottom: 20px;
+    
+}
+
+.WordOfTheDay button {
+    background-color: #F3683C;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.WordOfTheDay button:hover {
+    background-color: #d3572e;
+}
+
+.WordOfTheDay .brief-word {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+    
+}
